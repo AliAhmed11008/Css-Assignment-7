@@ -1,0 +1,301 @@
+body {
+    font-family: Nunito;
+}
+
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 98%;
+    background-color: #ffffff;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    font-size: x-small;
+    font-family: Nunito;
+    color: darkblue;
+
+
+}
+
+.menu ul li:hover {
+    color: #4154F1;
+
+}
+
+.centre {
+    display: flex;
+    margin-top: 10%;
+
+}
+
+.mid {
+    margin: 0px 10% 0px 15%;
+}
+
+.mid h2 {
+    color: darkblue;
+
+}
+
+.img {
+    margin-right: 20%;
+}
+
+button {
+    height: 40px;
+    width: 140px;
+    background-color: #4154F1;
+    color: white;
+    outline: auto;
+    border-radius: 5px;
+    margin-left: 14%;
+
+
+}
+
+.who {
+    display: flex;
+    margin: 2% 5% 0px 5%;
+
+}
+
+.who b p {
+    color: #4154F1;
+
+}
+
+.we {
+    background-color: #F6F9FF;
+    /* margin-left: 10%; */
+    padding: 3%;
+}
+
+.team {
+    width: 648px;
+    height: 486px;
+}
+
+.who h3 {
+    color: darkblue;
+}
+
+.technologies {
+    text-align: center;
+}
+
+.technologies p {
+    color: #4154F1;
+}
+
+.technologies h1 {
+    color: darkblue;
+}
+
+.slider {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.slider img {
+    height: 30px;
+    width: 60px;
+
+}
+
+.offer {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.offer p {
+    color: #4154F1;
+}
+
+.offer h1 {
+    color: darkblue;
+}
+
+.Services {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+    margin: 0px 20%;
+    max-width: 1920px;
+}
+
+.box-blue {
+
+
+    height: 310px;
+    width: 400px;
+    text-align: center;
+    padding: 60px 30px;
+    border-radius: 5px;
+    border-bottom: 5px solid #2db6fb;
+}
+
+.box-blue:hover {
+    background-color: #2db6fb;
+    color: white;
+    transition: 0.5s;
+}
+
+.box-orange {
+
+    height: 310px;
+    width: 400px;
+    text-align: center;
+    padding: 60px 30px;
+    border-radius: 5px;
+    border-bottom: 5px solid #F68C09;
+}
+
+.box-orange:hover {
+    background-color: #F68C09;
+    color: white;
+    transition: 0.5s;
+}
+
+.box-green {
+
+    height: 310px;
+    width: 400px;
+    text-align: center;
+    padding: 60px 30px;
+    border-radius: 5px;
+    border-bottom: 5px solid #08DA4E;
+}
+
+.box-green:hover {
+    background-color: #08DA4E;
+    color: white;
+    transition: 0.5s;
+}
+
+.box-red {
+
+    height: 310px;
+    width: 400px;
+    text-align: center;
+    padding: 60px 30px;
+    border-radius: 5px;
+    border-bottom: 5px solid #E9222C;
+    margin-top: 20px;
+}
+
+.box-red:hover {
+    background-color: #E9222C;
+    color: white;
+    transition: 0.5s;
+}
+
+.box-purple {
+
+    height: 310px;
+    width: 400px;
+    text-align: center;
+    padding: 60px 30px;
+    border-radius: 5px;
+    border-bottom: 5px solid #B50EDF;
+    margin-top: 20px;
+}
+
+.box-purple:hover {
+    background-color: #B50EDF;
+    color: white;
+    transition: 0.5s;
+}
+
+.box-pink {
+
+    height: 310px;
+    width: 400px;
+    text-align: center;
+    padding: 60px 30px;
+    border-radius: 5px;
+    border-bottom: 5px solid #F51F9C;
+    margin-top: 20px;
+}
+
+.box-pink:hover {
+    background-color: #F51F9C;
+    color: white;
+    transition: 0.5s;
+}
+
+.core p {
+    color: #4154F1;
+}
+
+.core {
+    text-align: center;
+}
+
+.core h1 {
+    color: darkblue;
+}
+
+.core p h1 {
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.tik {
+    display: flex;
+}
+
+.Portofolio {
+    text-align: center;
+}
+
+.Portofolio p {
+    color: #4154F1;
+}
+
+.Portofolio h1 {
+    color: darkblue;
+}
+
+.butt {
+    align-items: center;
+    display: flex;
+    margin-left: 20%;
+
+}
+
+.but {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: transparent;
+    color: #4154F1;
+
+
+}
+
+.info {
+    margin: 5% 10%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 1920px;
+}
